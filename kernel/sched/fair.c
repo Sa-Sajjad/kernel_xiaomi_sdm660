@@ -6638,7 +6638,6 @@ static inline int find_best_target(struct task_struct *p, int *backup_cpu,
 			if (idle_cpu(i))
 				idle_idx = idle_get_state_idx(cpu_rq(i));
 
-
 			/*
 			 * Case A) Latency sensitive tasks
 			 *
